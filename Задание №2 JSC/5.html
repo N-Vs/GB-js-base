@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homework</title>
+<script type="text/javascript" nonce="7b5ccf7ebcb74013b4610832d20" src="//local.adguard.org?ts=1646733434826&amp;type=content-script&amp;dmn=s320vla.storage.yandex.net&amp;pth=%2Frdisk%2F22b6cb81d5d53c861b5a5683ab0afd502bc738b2aa977a0143a513bf8f03c878%2F6227a9e2%2FjSKWUTXj8Otg3NTJJNCiAbV1ngLej5U0B9LlUIaiqxD0GnhlqaD8Apps3whBTpI4r8GPWKUxjqzbzeOVEPRIvw%3D%3D%3Fuid%3D0%26filename%3D5.html%26disposition%3Dattachment%26hash%3DjP8rlmWA%2FouNkw%252BEbgiWsGAKFMerpyGq3DzXjI6QdV11JxZitK8U4iDB2Y6agnFhq%2FJ6bpmRyOJonT3VoXnDag%253D%253D%253A%2F%25D0%25B4%25D0%25BE%25D0%25BC%25D0%25B0%25D1%2588%25D0%25BD%25D0%25B5%25D0%25B5_%25D0%25B7%25D0%25B0%25D0%25B4%25D0%25B0%25D0%25BD%25D0%25B8%25D0%25B5%2F5.html%26limit%3D0%26content_type%3Dtext%252Fhtml%26owner_uid%3D414610068%26fsize%3D1742%26hid%3Db47aa341c804953c6bb48c8749062478%26media_type%3Ddevelopment%26tknv%3Dv2%26rtoken%3DDVcxcB86hc6E%26force_default%3Dno%26ycrid%3Dna-59c70015f33e60d74f04ea58a4c39a44-downloader8f%26ts%3D5d9b9b7f4bc80%26s%3D3f0ab8a56f5e6e7a372133422b246ccc91c0867388165cd05a0efdbbca12a7da%26pb%3DU2FsdGVkX19lYXyLwhPLkfW5qOnMvoRnnGgINaL_8g5GoUL8LJD6HJfm0_okzcFv19phmfjxsik5o7Cs7OcHs1DGvsJMwp5QiUUxwKA433w&amp;app=firefox.exe&amp;css=3&amp;js=1&amp;rel=1&amp;rji=1&amp;sbe=1"></script>
+<script type="text/javascript" nonce="7b5ccf7ebcb74013b4610832d20" src="//local.adguard.org?ts=1646733434826&amp;name=AdGuard%20Extra&amp;name=AdGuard%20Popup%20Blocker&amp;type=user-script"></script></head>
+<body>
+<!--
+Обязательное задание.
+
+Необходимо скопировать и вставить в данный скрипт все функции из 4 задания.
+Необходимо реализовать функцию:
+mathOperation(arg1, arg2, operation);
+
+-->
+<script>
+  "use strict";
+  function sum (a, b) {
+    return a + b;
+  }
+  function sub (a, b) {
+    return a - b;
+  }
+  function multiplication (a, b) {
+    return a * b;
+  }
+  function division (a, b) {
+    return a / b
+  }
+
+  function mathOperation(arg1, arg2, operation) {
+    switch (operation) {
+      case "+":
+        return sum(arg1, arg2);
+      case "-":
+        return sub(arg1, arg2);
+      case "*":
+        return multiplication(arg1, arg2);
+      case "/":
+        return division(arg1, arg2);
+    }
+  }
+    
+  console.log(mathOperation(5, 3, "+"));
+  console.log(mathOperation(5, 3, "-"));
+  console.log(mathOperation(5, 3, "*"));
+  console.log(mathOperation(5, 3, "/"));
+  console.log(mathOperation(5, 3, "O_o"));
+</script>
+</body>
+</html>
